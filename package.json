@@ -1,0 +1,23 @@
+{
+  "name": "react-cli",
+  "version": "1.0.0",
+  "description": "the react cli",
+  "main": "index.js",
+  "bin": {
+    "react-cli": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "youyuan.lin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "execa": "^1.0.0",
+    "inquirer": "^6.3.1",
+    "ora": "^3.4.0",
+    "react-dev-utils": "^9.0.0"
+  }
+}
