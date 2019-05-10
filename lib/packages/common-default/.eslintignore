@@ -1,0 +1,4 @@
+/build/*
+/*.js
+*.test.js
+/src/serviceWorker.js
