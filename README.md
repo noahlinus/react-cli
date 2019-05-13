@@ -16,4 +16,4 @@ UI组件 | Antd / Ant-mobile
 
 `react-cli create <app-name> `
 
-选择`default (JavaScript, Redux, Antd, Less, Router, ESLint)` 或者 `Manually select features `进行选择配置。
+选择`default (JavaScript, Mobx, Antd, Less, Router, ESLint)` 或者 `Manually select features `进行选择配置。

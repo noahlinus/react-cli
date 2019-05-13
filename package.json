@@ -1,6 +1,6 @@
 {
   "name": "react-cli",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "the react cli",
   "main": "lib/index.js",
   "bin": {

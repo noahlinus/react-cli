@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 总体架构
 
-## Available Scripts
+基于官方`create-react-app`，并增加自选框架。
 
-In the project directory, you can run:
+类型 | 可选框架名称
+:- | :- 
+语言 | JavaScript / TypeScript
+状态管理库 | Mobx / Redux
+css预处理器 | SCSS / LESS / Styled-Components
+UI组件 | Antd / Ant-mobile
+代码规范 | Airbnb
+HTTP库 | Axios
+路由 | react-router
 
-### `npm start`
+## 使用
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### npm start
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+启动本地调试 启动地址和配置可以在`config-overrides.js`修改
 
-### `npm test`
+### npm run build
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+应用打包
 
-### `npm run build`
+### npm run test
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+测试应用
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### npm run eject
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+将`react-scripts`暴露到应用顶层，操作不可逆，弹射后不能随官方脚手架升级
 
-### `npm run eject`
+## 目录
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> src 源码
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    api  --异步请求集合
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    assets  --静态资源
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    components  --细小的组件，能复用
 
-## Learn More
+    routes --路由集合管理
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    modules --各个业务模块
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    stores  --状态管理
 
-### Code Splitting
+    style  --全局样式（页面样式写在各自页面中）
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    utils  --工具类文件（包括fetch等）
 
-### Analyzing the Bundle Size
+    test --测试目录
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+    App.js --应用入口文件
 
-### Making a Progressive Web App
+    index.js --入口文件
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## 代码规范
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+请遵守Airbnb JavaScript的代码规范：[Airbnb JavaScript 代码规范中文版](https://github.com/BingKui/javascript-zh#semicolons)
