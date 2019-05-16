@@ -1,0 +1,8 @@
+{
+  "hasConfig": false,
+  "config": {
+    "stateManagement": "Redux",
+    "cssPre": "LESS",
+    "design": "Ant Design"
+  }
+}
