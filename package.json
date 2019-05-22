@@ -1,6 +1,6 @@
 {
   "name": "xd-react-cli",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "the react cli",
   "main": "lib/index.js",
   "bin": {

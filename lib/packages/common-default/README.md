@@ -72,4 +72,4 @@ HTTP库 | Axios
 
 ## 代码规范
 
-请遵守Airbnb JavaScript的代码规范：[Airbnb JavaScript 代码规范中文版](https://github.com/BingKui/javascript-zh#semicolons)
+请遵守Airbnb JavaScript的代码规范：[Airbnb JavaScript 代码规范中文版](https://github.com/LinYouYuan/javascript-zh)

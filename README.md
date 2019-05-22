@@ -89,13 +89,12 @@ HTTP库 | Axios
 
 ## 关于config-overrides配置
 
-完全不用担心无法定制的问题，用户可以在里面配置Webpack devServer jest。完全可以在这里添加自定义的config配置来增加修改loader, plugin, optimization进行配置。`webpackMerge`使用混入的方式去添加config。
+完全不用担心无法定制的问题，用户可以在里面配置Webpack devServer jest。可以在这里添加自定义的config配置来增加修改loader, plugin, optimization进行配置。`webpackMerge`使用混入的方式去添加config。
 
 ## 代码规范
 
-请遵守Airbnb JavaScript的代码规范：[Airbnb JavaScript 代码规范中文版](https://github.com/BingKui/javascript-zh#semicolons)
+请遵守Airbnb JavaScript的代码规范：[Airbnb JavaScript 代码规范中文版](https://github.com/LinYouYuan/javascript-zh)
 
 ## 未完成
 
 1. TypeScript相关支持，后期加上
-2. 等待tdui 3.0，后期配合使用
