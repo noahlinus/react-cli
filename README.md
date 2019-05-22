@@ -24,7 +24,7 @@ HTTP库 | Axios
 
 用户第一次创建有两个选项
 
-- `default (JavaScript, Mobx, Antd, Less, Router, ESLint)` 默认配置
+- `default (JavaScript, Redux, Antd, Less, Router, ESLint)` 默认配置
 - `Manually select features ` 选择配置
 
 第二次创建的时候会多一个用户上次选择过的选项配置`config`
