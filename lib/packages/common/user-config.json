@@ -1,5 +1,5 @@
 {
-  "hasConfig": false,
+  "hasConfig": true,
   "config": {
     "stateManagement": "Redux",
     "cssPre": "LESS",
